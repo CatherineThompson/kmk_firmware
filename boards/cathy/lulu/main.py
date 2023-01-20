@@ -1,5 +1,4 @@
 from kb import KMKKeyboard
-from kmk.hid import HIDModes
 from kmk.keys import KC
 from kmk.modules.layers import Layers
 from kmk.modules.modtap import ModTap
@@ -82,4 +81,4 @@ keyboard.keymap = [
 ]
 
 if __name__ == '__main__':
-    keyboard.go(hid_type=HIDModes.USB)
+    keyboard.go()
